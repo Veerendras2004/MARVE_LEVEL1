@@ -15,6 +15,58 @@ Repository link : (https://github.com/Veerendras2004/MARVE_LEVEL1/tree/main/sock
 
  A command-line tool  that provides a Git command-line experience and  shell utilities to interact with Git repositories and execute Git commands.
 
+ # Important Git Commands
+
+```bash
+# Configure Git
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Initialize Git Repository
+git init
+
+# Clone Repository
+git clone <repository-url>
+
+# Check Status
+git status
+
+# Add files to staging area
+git add <file>   # Add a specific file
+git add .        # Add all files
+
+# Commit Changes
+git commit -m "Your commit message"
+
+# Push changes to remote repository
+git push origin <branch-name>
+
+# Pull changes from remote repository
+git pull
+
+# Check branch
+git branch        # List branches
+git checkout <branch-name>  # Switch branch
+
+# Create new branch
+git checkout -b <new-branch-name>
+
+# Merge branches
+git merge <branch-name>
+
+# View Commit History
+git log
+
+# Remove file from staging area
+git reset <file>
+
+# Revert to a specific commit
+git reset --hard <commit-hash>
+
+# Delete a branch
+git branch -d <branch-name>
+```
+
 
 
  ***
