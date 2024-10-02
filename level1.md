@@ -29,3 +29,11 @@ Repository link : (https://github.com/Veerendras2004/MARVE_LEVEL1/tree/main/sock
  
  ![image](https://i.postimg.cc/1z0g4XFH/OSIMF.jpg)
 
+
+ # Task 5: IP Addressing and Protocols
+
+ ## WEB SCRAPING
+ Web scraping with Python and BeautifulSoup involves extracting data from websites by parsing HTML content. BeautifulSoup simplifies the process by providing easy-to-use methods for navigating, searching, and modifying the HTML/XML structure, allowing you to extract the specific information you need.
+
+ [![Screenshot-2024-10-02-111318.png](https://i.postimg.cc/brGSYhjH/Screenshot-2024-10-02-111318.png)](https://postimg.cc/fSNR51yJ)
+
