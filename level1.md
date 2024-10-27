@@ -103,3 +103,20 @@ In CBC mode, I used an initialization vector (IV) to enhance security. I padded 
 
  [![Screenshot-2024-10-02-111318.png](https://i.postimg.cc/brGSYhjH/Screenshot-2024-10-02-111318.png)](https://postimg.cc/fSNR51yJ)
 
+
+ # TASK 6:  Kali Linux and SSH
+In this task, I installed Kali Linux within Oracle VirtualBox, a powerful tool for virtualization that allows the simultaneous running of multiple operating systems on a single physical machine. Kali Linux is a Debian-based distribution specifically designed for penetration testing and security auditing, making it an ideal choice for cybersecurity tasks.
+
+After successfully setting up the environment, I conducted several Nmap scanning operations. Nmap (Network Mapper) is an open-source tool widely used for network discovery and security auditing.
+
+I performed two types of scans:
+
+TCP Connect Scan (-sT): This scan attempts to establish a full TCP connection with the target host. It is useful for identifying open ports and services running on those ports. While it provides reliable results, it can be easily detected by firewalls and intrusion detection systems.
+
+SYN Scan (-sS): Known as a "stealth" scan, the SYN scan sends SYN packets to the target ports and waits for responses. It is faster and less intrusive than the TCP connect scan, as it does not complete the TCP handshake. This scan is particularly effective for identifying open ports while minimizing the risk of detection.
+
+Additionally, I manually changed the IP address of the Kali Linux virtual machine.
+[![Screenshot-2024-10-26-07-35-43.png](https://i.postimg.cc/bN0Dbx1y/Screenshot-2024-10-26-07-35-43.png)](https://postimg.cc/XpJY6y2m)
+[![Screenshot-2024-10-26-08-00-07.png](https://i.postimg.cc/HLMCc273/Screenshot-2024-10-26-08-00-07.png)](https://postimg.cc/hJKYNVs7)
+[![Screenshot-2024-10-26-13-55-13.png](https://i.postimg.cc/DySpwzGP/Screenshot-2024-10-26-13-55-13.png)](https://postimg.cc/4mTQ8sBY)
+
