@@ -83,6 +83,19 @@ git branch -d <branch-name>
  ![image](https://i.postimg.cc/1z0g4XFH/OSIMF.jpg)
 
 
+***
+# Task 4:Encryption Techniques
+In this task, I developed a basic encryption and decryption program using Python's PyCrypto library, which supports various cryptographic algorithms. I implemented the AES algorithm in two modes: ECB (Electronic Codebook) and CBC (Cipher Block Chaining).
+
+For the ECB mode, I encrypted the plaintext directly, where each block was processed independently. While this approach is faster, it lacks security due to identical plaintext blocks producing identical ciphertext blocks.
+
+In CBC mode, I used an initialization vector (IV) to enhance security. I padded the plaintext to match the required block size before encrypting, ensuring that each block depended on the previous ciphertext. The ciphertext and IV were saved to a file. For decryption, I retrieved the IV and ciphertext, created a cipher with the same key and IV, and decrypted the message, finally unpadding it to restore the original text.
+
+[![Screenshot-2024-10-27-182238.png](https://i.postimg.cc/FHgnSLn0/Screenshot-2024-10-27-182238.png)](https://postimg.cc/dh3BPLF0)
+[![Screenshot-2024-10-27-183455.png](https://i.postimg.cc/wjVsLq51/Screenshot-2024-10-27-183455.png)](https://postimg.cc/MnnT88Fw)
+[![Screenshot-2024-10-27-182254.png](https://i.postimg.cc/JnwmhJyZ/Screenshot-2024-10-27-182254.png)](https://postimg.cc/bGR4CZ9w)
+
+
  # Task 5: IP Addressing and Protocols
 
  ## WEB SCRAPING
