@@ -114,9 +114,14 @@ I performed two types of scans:
 TCP Connect Scan (-sT): This scan attempts to establish a full TCP connection with the target host. It is useful for identifying open ports and services running on those ports. While it provides reliable results, it can be easily detected by firewalls and intrusion detection systems.
 
 SYN Scan (-sS): Known as a "stealth" scan, the SYN scan sends SYN packets to the target ports and waits for responses. It is faster and less intrusive than the TCP connect scan, as it does not complete the TCP handshake. This scan is particularly effective for identifying open ports while minimizing the risk of detection.
+[![Screenshot-2024-10-26-13-55-13.png](https://i.postimg.cc/DySpwzGP/Screenshot-2024-10-26-13-55-13.png)](https://postimg.cc/4mTQ8sBY)
+
 
 Additionally, I manually changed the IP address of the Kali Linux virtual machine.
+
 [![Screenshot-2024-10-26-07-35-43.png](https://i.postimg.cc/bN0Dbx1y/Screenshot-2024-10-26-07-35-43.png)](https://postimg.cc/XpJY6y2m)
+
+I also utilized the ping command to test connectivity with specific IP addresses. This command sends ICMP echo request packets to the target IP, allowing me to verify if the host is reachable
+
 [![Screenshot-2024-10-26-08-00-07.png](https://i.postimg.cc/HLMCc273/Screenshot-2024-10-26-08-00-07.png)](https://postimg.cc/hJKYNVs7)
-[![Screenshot-2024-10-26-13-55-13.png](https://i.postimg.cc/DySpwzGP/Screenshot-2024-10-26-13-55-13.png)](https://postimg.cc/4mTQ8sBY)
 
